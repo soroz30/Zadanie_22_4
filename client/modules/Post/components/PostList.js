@@ -25,6 +25,8 @@ PostList.propTypes = {
     title: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
+    upVotes: PropTypes.number.isRequired,
+    downVotes: PropTypes.number.isRequired,
     cuid: PropTypes.string.isRequired,
   })).isRequired,
   handleDeletePost: PropTypes.func.isRequired,

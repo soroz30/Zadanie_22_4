@@ -39,7 +39,7 @@ class PostListPage extends Component {
   }
 }
 
-// Actions required to provide data for this component to render in sever side.
+// Actions required to provide data for this component to render in server side.
 PostListPage.need = [() => { return fetchPosts(); }];
 
 // Retrieve data from store as props
@@ -55,6 +55,8 @@ PostListPage.propTypes = {
     name: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired,
+    upVotes: PropTypes.number.isRequired,
+    downVotes: PropTypes.number.isRequired,
   })).isRequired,
   showAddPost: PropTypes.bool.isRequired,
   dispatch: PropTypes.func.isRequired,
