@@ -29,7 +29,7 @@ class PostListItem extends React.Component {
       <div className={styles['single-post']}>
         <h3 className={styles['post-title']}>
           <Link to={`/posts/${this.props.post.slug}-${this.props.post.cuid}`} >
-            {this.props.title}
+            {this.props.post.title}
           </Link>
         </h3>
         <p className={styles['author-name']}><FormattedMessage id="by" /> {this.props.post.name}</p>
