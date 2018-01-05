@@ -1,0 +1,9 @@
+.nav a {
+	color: rgba(255, 255, 255, 0.7);
+	text-decoration: none;
+	margin: 0 10px 0;
+}
+
+.active {
+	color: #551A8B;
+}

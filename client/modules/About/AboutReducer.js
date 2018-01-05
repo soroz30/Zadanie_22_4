@@ -1,5 +1,5 @@
 // Import Actions
-import {  } from './AboutActions';
+import { } from './AboutActions';
 
 // Initial State
 const initialState = {};

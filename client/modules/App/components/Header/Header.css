@@ -38,10 +38,10 @@
 }
 
 .language-switcher ul {
+  display: flex;
   list-style: none;
   width: 980px;
   margin: auto;
-  text-align: right;
 }
 
 .language-switcher li {
@@ -53,6 +53,11 @@
 }
 
 .language-switcher li:first-child {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.language-switcher li:nth-child(2) {
   color: rgba(255, 255, 255, 0.7);
 }
 
